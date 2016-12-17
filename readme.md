@@ -13,7 +13,7 @@ It includes a Makefile for building PDF and HTML versions of your document and a
 
 ## Set Up
 
-To start a Madoko project, you'll want to install it:
+To start a Madoko project, you'll want to install Madoko:
 
     $ npm install -g madoko
 
@@ -22,7 +22,7 @@ You'll at least want `madoko.mk` and `style.mdk` and probably `.gitignore`; the 
 
 Edit your `Makefile`. At a minimum, it should look something like this:
 
-    TARGETS := index
+    TARGETS := mydoc
     DEPS := style.mdk
     include madoko.mk
 
