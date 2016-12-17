@@ -29,6 +29,12 @@ Edit your `Makefile`. At a minimum, it should look something like this:
 The `TARGETS` line should indicate your `*.md` Markdown file where you'll do your writing. You can list multiple documents there if you want to produce multiple, separate documents.
 Use the `DEPS` variable to list other files that your document depends on, such as figures (and the included style preamble).
 
+In your Markdown source file, add this line to use the included style preamble:
+
+    [INCLUDE="style"]
+
+You'll want to put that in your Madoko "header" along with any the other metadata declarations.
+
 
 ## Make Targets
 
