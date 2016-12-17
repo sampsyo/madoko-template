@@ -1,3 +1,3 @@
-TARGETS := index
+TARGETS := readme
 DEPS := style.mdk
 include madoko.mk

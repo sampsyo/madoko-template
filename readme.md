@@ -1,3 +1,5 @@
+[INCLUDE="style"]
+
 madoko-template
 ===============
 
