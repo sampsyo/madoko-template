@@ -1,4 +1,5 @@
 title: A Test Document!
+[INCLUDE="style"]
 
 [TITLE]
 
