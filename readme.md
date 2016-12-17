@@ -60,6 +60,21 @@ There's also a `make clean` target, naturally.
 [hooknook]: https://github.com/sampsyo/liveserve
 
 
+## Style
+
+The included `style.mdk` preamble does a few things that look good to me:
+
+* Use a simple, numerical citation format by default.
+* Madoko's syntax highlighting does not use color in the PDF output. To me, colorized source code is fine on a Web page but looks silly on paper.
+* Similarly, links are not colorized in the PDF output. That's just wrong.
+* Make the "todo" environment in Madoko source show up red. You can also use `&tk;` to insert a simple red placeholder with no explanatory text.
+* Use Adobe's [Source Code Pro][] font for code in the PDF output, which I think looks better than the TeX default.
+* The Web output uses in-browser hyphenation, a nice Palatino-based font stack, less harsh link colors, and looser spacing. Here's [an example output][ppl].
+
+[Source Code Pro]: https://adobe-fonts.github.io/source-code-pro/
+[ppl]: http://adriansampson.net/doc/ppl.html
+
+
 ## Author
 
 By [Adrian Sampson][adrian], with apologies to [Ben Ransford][ben] whose [pdflatex-makefile][] inspired this (while being a hundred times more impressive and more useful).
