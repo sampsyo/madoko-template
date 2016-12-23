@@ -1,5 +1,5 @@
-MADOKO := madoko
-BUILD_DIR := build
+MADOKO ?= madoko
+BUILD_DIR ?= build
 
 MARKDOWN := $(TARGETS:%=%.md)
 PDF := $(TARGETS:%=$(BUILD_DIR)/%.pdf)
