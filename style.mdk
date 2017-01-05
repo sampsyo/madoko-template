@@ -13,15 +13,22 @@ bib style: plainnat
     color: black;
     font-weight: bold;
   }
-  .token.string {
-    color: black;
-  }
   .token.comment {
     color: gray;
   }
-  .token.constant {
+  .token.tag {
     color: black;
+    font-weight: bold;
   }
+  .token.constant       { color: black }
+  .token.constructor    { color: black }
+  .token.type           { color: black }
+  .token.type.delimiter { color: black }
+  .token.special        { color: black }
+  .token.doc            { color: black }
+  .token.meta           { color: black }
+  .token.attribute      { color: black }
+  .token.namespace      { color: black }
 }
 
 <!-- Placeholders. -->
